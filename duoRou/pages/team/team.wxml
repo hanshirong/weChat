@@ -1,0 +1,23 @@
+<!--pages/team/team.wxml-->
+<view class='team'>
+  <form bindsubmit='creatTeam'>
+  <view>队伍名称</view>
+  <view>
+    <input type='text' name="name"  id='team_name' style='border:solid grey ; width:300rpx;'  required="required"></input>
+  </view>
+  <view>队伍需求队友数</view>
+  <view>
+    <input type='text' name="memberNum" id='team_memberNum' style='border:solid grey; width:300rpx;' required='required'></input>
+   </view>
+  <view>队伍简介</view>
+  <view>
+    <textarea type='text' name="introduces" id='team_introduces' style='border:solid grey;width:450rpx;height:300rpx;' required='required'></textarea> 
+  </view>
+  <view>队伍特殊需求</view>
+  <view>
+    <textarea type='text' name="Aims" class='Aims' style='border:solid grey;width:450rpx;height:150rpx;' required='required'></textarea> 
+    <text>\n</text>
+  </view>
+  <view ><button form-type='submit' >提交</button></view>
+  </form>
+</view>

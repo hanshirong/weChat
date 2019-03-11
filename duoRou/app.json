@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/team/team",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/buttom/home",
+    "pages/buttom/buttom/classify",
+    "pages/buttom/creatNew/creatNew",
+    "pages/buttom/own/own",
+    "pages/my/my",
+    "template/template"
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "比赛助手",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#000",
+    "selectedColor":"#1AAD19",
+    "backgroundColor":"#ddd",
+    "borderStyle": "black",
+    "list":[{
+      "iconPath":"images/icon_home.png",
+      "pagePath":"pages/team/team",
+      "text":"首页",
+      "selctedIconPath": "images/icon_home.png"
+    },{
+      
+      "iconPath": "images/icon_zone.png",
+      "pagePath": "pages/index/index",
+      "text": "分区",
+      "selctedIconPath": "images/icon_zone.png"
+    },{
+     
+      "iconPath": "images/icon_post.png",
+      "pagePath": "pages/team/team",
+      "text": "发帖",
+      "selctedIconPath": "images/icon_post.png"
+    },{
+      
+      "iconPath": "images/icon_my.png",
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "selctedIconPath": "images/icon_my.png"
+    }]
+
+  }
+}

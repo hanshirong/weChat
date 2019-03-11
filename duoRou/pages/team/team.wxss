@@ -1,0 +1,7 @@
+/* pages/team/team.wxss */
+.name{
+  border: soild black 2rpx;
+  height: 20rps;
+  width: 200rpx;
+
+}
